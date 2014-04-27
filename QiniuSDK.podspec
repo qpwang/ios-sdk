@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source_files = 'QiniuSDK/*.{h,m}'
   s.license = 'MIT'
   s.requires_arc = true
-  s.dependency 'AFNetworking', ~> '2.2.1'
+  s.dependency 'AFNetworking', '~> 2.2.1'
 end
 
