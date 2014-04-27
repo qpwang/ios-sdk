@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
       :git => 'https://github.com/qpwang/ios-sdk.git',
       :tag => 'v6.2.3'
   }
-  s.source_files = 'QiniuSDK/*.{h,m}'
+  s.source_files = 'QiniuSDK/*.{h,m}', 'QiniuSDK/AFNetwork2/*.{h,m}'
   s.license = 'MIT'
   s.requires_arc = true
   s.dependency 'AFNetworking'
