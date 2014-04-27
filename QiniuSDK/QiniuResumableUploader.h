@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFNetwork2/AFNetworking.h"
+#import "AFNetworking.h"
 #import "QiniuResumableClient.h"
 #import "QiniuUploadDelegate.h"
 
